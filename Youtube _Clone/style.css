@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* nav */
+.nav {
+  /* border: 2px solid black; */
+  display: flex;
+  gap: 4%;
+}
+.fa-bars {
+  padding-left: 12%;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  cursor: pointer;
+}
+/* left */
+.left {
+  /* border: 2px solid rgb(114, 48, 155); */
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  height: 8vh;
+  width: 14%;
+  align-items: center;
+}
+.logo {
+  /* border: 2px solid rgb(157, 19, 19); */
+}
+.logo img {
+  width: 100px;
+  cursor: pointer;
+  position: relative;
+}
+.logo span {
+  /* border: 1px solid gold; */
+  position: absolute;
+  font-size: 0.8rem;
+  color: rgb(83, 73, 73);
+  padding-top: 10px;
+}
+/* nav-right */
+
+.right {
+  /* border: 2px solid black; */
+  width: 88%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+}
+.input {
+  /* border: 2px solid rgb(164, 24, 24); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  height: 8vh;
+  width: 70%;
+
+}
+.input input {
+  padding: 8px;
+  border-radius: 15px;
+  height: fit-content;
+  width: 60%;
+  font-size: 1.1rem;
+}
+.fa-magnifying-glass{
+    cursor: pointer;
+    padding: 10px;
+    font-size: larger;
+}
+.fa-microphone{
+    cursor: pointer;
+    padding: 10px;
+    font-size: larger;
+    
+}
+.righ-icon{
+    /* border: 2px solid yellow; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8%;
+    padding-right: 5%;
+    cursor: pointer;
+}

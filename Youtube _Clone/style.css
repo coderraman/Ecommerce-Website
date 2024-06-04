@@ -20,13 +20,16 @@
 }
 /* left */
 .left {
-  /* border: 2px solid rgb(114, 48, 155); */
+  border: 2px solid rgb(114, 48, 155);
   display: flex;
   justify-content: space-between;
   gap: 5%;
   height: 8vh;
   width: 14%;
   align-items: center;
+}
+.left_contant{
+    border: 2px solid black;
 }
 .logo {
   /* border: 2px solid rgb(157, 19, 19); */
@@ -42,6 +45,7 @@
   font-size: 0.8rem;
   color: rgb(83, 73, 73);
   padding-top: 10px;
+  font-family: sans-serif;
 }
 /* nav-right */
 
@@ -60,7 +64,6 @@
   gap: 2%;
   height: 8vh;
   width: 70%;
-
 }
 .input input {
   padding: 8px;
@@ -69,24 +72,39 @@
   width: 60%;
   font-size: 1.1rem;
 }
-.fa-magnifying-glass{
-    cursor: pointer;
-    padding: 10px;
-    font-size: larger;
+.fa-magnifying-glass {
+  cursor: pointer;
+  padding: 10px;
+  font-size: larger;
 }
-.fa-microphone{
-    cursor: pointer;
-    padding: 10px;
-    font-size: larger;
-    
+.fa-microphone {
+  cursor: pointer;
+  padding: 10px;
+  font-size: larger;
 }
-.righ-icon{
-    /* border: 2px solid yellow; */
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 8%;
-    padding-right: 5%;
-    cursor: pointer;
+.righ-icon {
+  /* border: 2px solid yellow; */
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8%;
+  padding-right: 5%;
+  cursor: pointer;
 }
+.user_dp {
+  background-color: purple;
+  color: white;
+  border-radius: 50%;
+  width: 10%;
+}
+.user_dp h6 {
+  height: 5vh;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  text-align: center;
+  align-items: center;
+}
+
+
